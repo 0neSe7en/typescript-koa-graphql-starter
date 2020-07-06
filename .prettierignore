@@ -1,0 +1,9 @@
+.*
+dist/
+Dockerfile
+src/graphql/types/*
+.gitignore
+.npmrc
+.prettierignore
+coverage/
+.idea/
