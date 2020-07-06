@@ -55,7 +55,7 @@ export const resolvers: Resolvers = {
       } catch (e) {
         throw new AuthenticationError('TokenInvalid')
       }
-    }
+    },
   },
 
   Viewer: {
@@ -64,6 +64,6 @@ export const resolvers: Resolvers = {
         return ctx.state.user
       }
       throw new AuthenticationError('')
-    }
-  }
+    },
+  },
 }

@@ -22,9 +22,8 @@ class MemoryDataSource extends DataSource {
 }
 
 export const dataSources = {
-  memory: MemoryDataSource
+  memory: MemoryDataSource,
 }
-
 
 export type DataSources = {
   [Key in keyof typeof dataSources]: InstanceType<typeof dataSources[Key]>

@@ -41,7 +41,6 @@ const serverConfig: Config = {
 }
 
 function formatError(err: GraphQLError) {
-  console.error('Error:', err)
   return err
 }
 

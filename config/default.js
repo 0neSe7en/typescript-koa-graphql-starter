@@ -1,12 +1,12 @@
 module.exports = {
-  apiKey: "fe4c4124",
+  apiKey: 'fe4c4124',
   apollo: {
-    apiKey: ''
+    apiKey: '',
   },
   sentry: {
-    dsn: ''
+    dsn: '',
   },
   jwt: {
-    secret: 'localhost'
-  }
+    secret: 'localhost',
+  },
 }

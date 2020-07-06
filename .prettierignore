@@ -7,3 +7,4 @@ src/graphql/types/*
 .prettierignore
 coverage/
 .idea/
+yarn.lock
